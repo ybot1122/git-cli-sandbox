@@ -5,7 +5,10 @@
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "node ./bin/index.js"
+    "release": "node ./bin/index.js --language spanish --sentence hello",
+    "smoke": "node ./bin/index.js --language spanish --sentence hello",
+    "production": "node ./bin/index.js --language spanish --sentence hello",
+    "hotfix": "node ./bin/index.js --language spanish --sentence hello"
   },
   "license": "ISC",
   "keywords": [
